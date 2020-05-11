@@ -1,13 +1,17 @@
-- name: Pricing
-  link: /pricing/
+- name: About
+  link: /about/
+  new_window: false
+  highlight: false
+- name: Gallery
+  link: /gallery/
   new_window: false
   highlight: false
 - name: Blog
   link: /blog/
   new_window: false
   highlight: false
-- name: About
-  link: /about/
+- name: Our Wines
+  link: /ourwines/
   new_window: false
   highlight: false
 - name: Contact
