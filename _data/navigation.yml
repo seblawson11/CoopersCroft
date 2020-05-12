@@ -14,6 +14,10 @@
   link: /ourwines/
   new_window: false
   highlight: false
+- name: Tours
+  link: /tours/
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false
