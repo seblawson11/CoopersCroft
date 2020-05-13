@@ -7,6 +7,8 @@
     link: /blog/
   - name: Our Wines
     link: /ourwines/
+  - name: Tours
+    link: /tours/
   - name: Contact
     link: /contact/
 - links:
@@ -18,7 +20,7 @@
     link: https://twitter.com/cloudcannon/
     social_icon: Twitter
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+  #- name: RSS
+  #  link: /feed.xml
+  #  social_icon: RSS
+  #  new_window: false
