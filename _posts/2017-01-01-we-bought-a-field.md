@@ -1,6 +1,6 @@
 ---
 date: 2017-01-01
-title: 2015: A Busy Year
+title: We Bought a Field
 ---
 
 ## We found it!
