@@ -3,13 +3,13 @@ date: 2017-01-01
 title: We Bought a Field
 ---
 
-## We found it!
+### We found it!
 
 After all our looking we found a 5 acre south-facing sloping site. The house was ok, needed work. It was definitely going to be our home.
 
 The field was a corner of an arable field sold off 5 years before. A lot of ‘stuff’ that needed to be cleared, but the potential was there.
 
-![Coopers croft aerial]({{ site.baseurl }}/images/dashboard.png)
+![Coopers croft aerial]({{ site.baseurl }}/images/coopers-croft-aerial.jp2)
 
 Clearing and preparation started pretty quickly. Perhaps too quickly…
 
