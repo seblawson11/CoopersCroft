@@ -1,6 +1,6 @@
 ---
 date: 2016-01-01
-title: 2015: A Busy Year
+title: How did it all happen
 ---
 Summer 2002
 ![Nyons]({{ site.baseurl }}/images/coopers-croft-aerial.jp2)
