@@ -3,7 +3,7 @@ date: 2017-01-01
 title: We Bought a Field
 ---
 
-### We found it!
+## We found it!
 
 After all our looking we found a 5 acre south-facing sloping site. The house was ok, needed work. It was definitely going to be our home.
 

@@ -1,9 +1,10 @@
 ---
 date: 2019-01-01
-title: 2015: A Busy Year
+title: 2015 - A Busy Year
 ---
 
 #Early May…
+
 Pinot finally at bud burst
 
 ![Pinot bud burst]({{ site.baseurl }}/images/coopers-croft-aerial.jp2)
@@ -25,6 +26,7 @@ If there is one improvement in vine varieties, then frost tolerance would be my 
 I’ve also put up some more wire, with help from my father-in-law.  Only another 6km to go to complete the block of Bacchus.  Anchoring the end posts is still to be done as well, just waiting for the right soil conditions, honest.
 
 #Training
+
 The right training and qualifications are important, so I’ve attended the NPTC PA3A sprayer course for air assisted sprays which are necessary for the application of fungicide (and foliar nutrients) to the vine canopy.
 
 ![NPTC PA3A]({{ site.baseurl }}/images/coopers-croft-aerial.jp2)
@@ -32,6 +34,7 @@ The right training and qualifications are important, so I’ve attended the NPTC
 Now i just have to plan my input programme.
 
 #Weed control
+
 An important job to get done before bud burst is weed control around the base of the vines.
 
 ![weed control]({{ site.baseurl }}/images/coopers-croft-aerial.jp2)
@@ -46,6 +49,7 @@ The best option is to use a non-selective herbicide.  This will pretty much take
   + and apart from all that the obvious…… looks neater.
 
 #September…
+
 Been a while since I’ve written. the birth of our second daughter Matilda has wonderfully kept me busy. I wonder what I did with my time before having two children……
 
 Now on holiday at the in-laws in Devon.  First break in I can’t remember when.  And yes have planned to visit a few of the local vineyards when I’m here: Lily Farm, Sidbury and Castlewood.
