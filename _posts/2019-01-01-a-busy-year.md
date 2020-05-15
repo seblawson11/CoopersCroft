@@ -3,7 +3,7 @@ date: 2019-01-01
 title: 2015 - A Busy Year
 ---
 
-#Early May…
+# Early May…
 
 Pinot finally at bud burst
 
@@ -13,7 +13,7 @@ Well a busy time of year, pruning completed and not long after the buds started 
 
 Let’s hope that there are no late frosts.  Frost can damage and potentially kill the buds, having a substantial effect on the vine, not only for this season, but also in terms of trellising for future seasons.
 
-#EAVA Waffle and Walk
+# EAVA Waffle and Walk
 
 At a recent EAVA waffle and walk, we visited Bardfield vineyard, we had good discussions on training, early inputs required and maintenance of older vines.  Plus demonstration of ‘tow and blow’ kit; the idea that the constant movement of air would prevent damaging frosts.
 
@@ -25,7 +25,7 @@ If there is one improvement in vine varieties, then frost tolerance would be my 
 
 I’ve also put up some more wire, with help from my father-in-law.  Only another 6km to go to complete the block of Bacchus.  Anchoring the end posts is still to be done as well, just waiting for the right soil conditions, honest.
 
-#Training
+# Training
 
 The right training and qualifications are important, so I’ve attended the NPTC PA3A sprayer course for air assisted sprays which are necessary for the application of fungicide (and foliar nutrients) to the vine canopy.
 
@@ -33,7 +33,7 @@ The right training and qualifications are important, so I’ve attended the NPTC
 
 Now i just have to plan my input programme.
 
-#Weed control
+# Weed control
 
 An important job to get done before bud burst is weed control around the base of the vines.
 
@@ -48,7 +48,7 @@ The best option is to use a non-selective herbicide.  This will pretty much take
   + allows direct sunlight on soil to help warming up,
   + and apart from all that the obvious…… looks neater.
 
-#September…
+# September…
 
 Been a while since I’ve written. the birth of our second daughter Matilda has wonderfully kept me busy. I wonder what I did with my time before having two children……
 
