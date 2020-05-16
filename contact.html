@@ -9,8 +9,6 @@ map:
   address: "Coopers Croft Vineyard, Ashfield Green, Wickhambrook Newmarket Suffolk CB8 8UZ"
   zoom: 13
 ---
-<div class="map" id="map"></div>
-
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
@@ -40,6 +38,8 @@ map:
 		<p><a href="tel: 01440 820953 "> 01440 820953 </a></p>
 	</div>
 </div>
+
+<div class="map" id="map"></div>
 
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
