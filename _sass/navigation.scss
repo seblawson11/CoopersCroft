@@ -19,6 +19,8 @@ nav {
 	text-transform: uppercase;
 	font-size: .8em;
 	width: 100%;
+	position: fixed;
+	background-color: #282832;
 
 	@media #{$mid-point} {
 		text-align: right;
