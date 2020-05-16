@@ -9,7 +9,7 @@ After all our looking we found a 5 acre south-facing sloping site. The house was
 
 The field was a corner of an arable field sold off 5 years before. A lot of ‘stuff’ that needed to be cleared, but the potential was there.
 
-![Coopers croft aerial]({{ site.baseurl }}/images/coopers-croft-aerial.jp2)
+![Coopers croft aerial]({{ site.baseurl }}/images/coopers-croft-aerial.png)
 
 Clearing and preparation started pretty quickly. Perhaps too quickly…
 

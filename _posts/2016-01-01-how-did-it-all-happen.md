@@ -31,7 +31,7 @@ Madeleine angevine
 
 2005 Harvest and first go at making wine
 
-![2007 harvest]({{ site.baseurl }}/images/2007-harvest)
+![2007 harvest]({{ site.baseurl }}/images/2007-harvest.jpg)
 
 ![Making wine with a potato masher]({{ site.baseurl }}/images/making-wine-with-a-potato-masher.jpg)
 
