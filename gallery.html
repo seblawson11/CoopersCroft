@@ -1,8 +1,26 @@
 ---
 title: Gallery
-description:
+images:
+  - image_path: /images/grapes.jpg
+    title: grapes
+  - image_path: /images/harvest.jpg
+    title: harvest
+  - image_path: /images/wine.jpg
+    title: Wine
+  - image_path: /images/panarama.jpg
+    title: panarama
+  - image_path: /images/planting.jpg
+    title: Planting
+  - image_path: /images/planting2.jpg
+    title: Planting2
 ---
 
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
+<!--
 <div class="photo-gallery">
 
 <div>
@@ -10,7 +28,6 @@ description:
   <p>Click on the images below:</p>
 </div>
 
-<!-- The four columns -->
 <div class="row">
   <div class="column">
     <img src="{{ site.baseurl }}/images/grapes.jpg" alt="grapes" style="width:100%" onclick="myFunction(this);">
@@ -48,3 +65,4 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 </script>
+-->
