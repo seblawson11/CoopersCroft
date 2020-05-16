@@ -4,9 +4,9 @@ heading: Get in touch today
 description: We'd love to hear from you.
 
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
+  latitude: 52.170988
+  longitude: 0.570211
+  address: "Coopers Croft Vineyard, Ashfield Green, Wickhambrook Newmarket Suffolk CB8 8UZ"
   zoom: 13
 ---
 <div class="map" id="map"></div>
@@ -33,8 +33,11 @@ map:
 		<h3 class="editable">Address</h3>
 		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
-		<h3 class="editable">Email</h3>
+		<h3 class="editable email">Email</h3>
 		<p><a href="mailto:support@example.com"> cooperscroftvineyard@hotmail.com</a></p>
+
+    <h3 class="editable phone">Number</h3>
+		<p><a href="tel: 01440 820953 "> 01440 820953 </a></p>
 	</div>
 </div>
 
