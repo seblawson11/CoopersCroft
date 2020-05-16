@@ -39,29 +39,6 @@ description:
   </div>
 </div>
 
-<div class="demo">
-    <ul id="lightSlider">
-        <li data-thumb="{{ site.baseurl }}/images/wine.jpg">
-          <img src="{{ site.baseurl }}/images/wine.jpg" alt="wine" style="width:100%" onclick="myFunction(this);">
-        </li>
-        <li data-thumb="{{ site.baseurl }}/images/harvest.jpg">
-          <img src="{{ site.baseurl }}/images/harvest.jpg" alt="harvest" style="width:100%" onclick="myFunction(this);">
-        </li>
-        <li data-thumb="{{ site.baseurl }}/images/wine.jpg">
-          <img src="{{ site.baseurl }}/images/wine.jpg" alt="wine" style="width:100%" onclick="myFunction(this);">
-        </li>
-        <li data-thumb="{{ site.baseurl }}/images/panarama.jpg">
-          <img src="{{ site.baseurl }}/images/panarama.jpg" alt="panarama" style="width:100%" onclick="myFunction(this);">
-        </li>
-        <li data-thumb="{{ site.baseurl }}/images/planting.jpg">
-          <img src="{{ site.baseurl }}/images/planting.jpg" alt="planting" style="width:100%" onclick="myFunction(this);">
-        </li>
-        <li data-thumb="{{ site.baseurl }}/images/planting2.jpg">
-          <img src="{{ site.baseurl }}/images/planting2.jpg" alt="planting2" style="width:100%" onclick="myFunction(this);">
-        </li>
-    </ul>
-</div>
-
 <script>
 function myFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
@@ -70,12 +47,4 @@ function myFunction(imgs) {
   imgText.innerHTML = imgs.alt;
   expandImg.parentElement.style.display = "block";
 }
-
-$('#lightSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop: true,
-    slideMargin: 0,
-    thumbItem: 9
-});
 </script>
