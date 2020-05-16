@@ -3,10 +3,11 @@
 	text-decoration: none;
 	padding: 10px 30px;
 	background: $brand-color;
-	border-radius: 3px;
+	border-radius: 5px;
 	border: 1px solid rgba(255,255,255,.5);
 	transition: .2s ease-in-out;
 	margin: 10px;
+  text-align: center;
 }
 
 .custom-button a:hover {
