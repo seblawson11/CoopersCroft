@@ -1,26 +1,64 @@
 ---
+
 title: Gallery
-layout: default
-images:
-  - image_path: /images/grapes.jpg
-    title: grapes
-  - image_path: /images/harvest.jpg
-    title: harvest
-  - image_path: /images/wine.jpg
-    title: Wine
-  - image_path: /images/panarama.jpg
-    title: panarama
-  - image_path: /images/planting.jpg
-    title: Planting
-  - image_path: /images/planting2.jpg
-    title: Planting2
+
+---
+title: Home
+photos:
+- image_path: /images/grapes.jpg
+  caption: grapes
+- image_path: /images/harvest.jpg
+  caption: harvest
+- image_path: /images/wine.jpg
+  caption: Wine
+- image_path: /images/panarama.jpg
+  caption: panarama
+- image_path: /images/planting.jpg
+  caption: Planting
+- image_path: /images/planting2.jpg
+  caption: Planting2
 ---
 
-<ul class="photo-gallery">
-  {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
-  {% endfor %}
+<ul class="gallery">
+	{% for photo in page.photos %}
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
+	{% endfor %}
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
 </ul>
+
+<div class="overlay">
+	<a href="#" class="close">&#10005;</a>
+	<a class="prev">&lsaquo;</a>
+	<a class="next">&rsaquo;</a>
+	<p class="caption"></p>
+	<img>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  if (window.location.host === "app.cloudcannon.com") {
+    $('.gallery').find("a").click(function(e) {
+      e.preventDefault();
+      return false;
+    });
+  } else {
+    var script = document.createElement("script");
+    script.src = "{{ site.baseurl }}/js/lightbox.js";
+    document.body.appendChild(script);
+  }
+</script>
+
 <!--
 <div class="photo-gallery">
 
