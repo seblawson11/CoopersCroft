@@ -17,13 +17,7 @@ photos:
 
 
 <!--
-<div class="photo-gallery">
-
-<div>
-  <h2>Image Gallery</h2>
-  <p>Click on the images below:</p>
-</div>
-
+<div class="gallery">
 <div class="row">
   <div class="column">
     <img src="{{ site.baseurl }}/images/grapes.jpg" alt="grapes" style="width:100%" onclick="myFunction(this);">
@@ -44,21 +38,4 @@ photos:
     <img src="{{ site.baseurl }}/images/planting2.jpg" alt="planting2" style="width:100%" onclick="myFunction(this);">
   </div>
 </div>
-
-  <div class="img-container">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <img id="expandedImg" style="width:100%">
-    <div id="imgtext"></div>
-  </div>
 </div>
-
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
--->
