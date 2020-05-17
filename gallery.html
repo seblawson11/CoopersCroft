@@ -1,21 +1,25 @@
 ---
 title: Gallery
-photos:
-- image_path: /images/grapes.jpg
-  caption: grapes
-- image_path: /images/harvest.jpg
-  caption: harvest
-- image_path: /images/wine.jpg
-  caption: Wine
-- image_path: /images/panarama.jpg
-  caption: panarama
-- image_path: /images/planting.jpg
-  caption: Planting
-- image_path: /images/planting2.jpg
-  caption: Planting2
+images:
+  - image_path: /images/grapes.jpg
+    caption: grapes
+  - image_path: /images/harvest.jpg
+    caption: harvest
+  - image_path: /images/wine.jpg
+    caption: Wine
+  - image_path: /images/panarama.jpg
+    caption: panarama
+  - image_path: /images/planting.jpg
+    caption: Planting
+  - image_path: /images/planting2.jpg
+    caption: Planting2
 ---
 
-
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
 <!--
 <div class="gallery">
 <div class="row">
@@ -38,4 +42,4 @@ photos:
     <img src="{{ site.baseurl }}/images/planting2.jpg" alt="planting2" style="width:100%" onclick="myFunction(this);">
   </div>
 </div>
-</div>
+</div> -->
