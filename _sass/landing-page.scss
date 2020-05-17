@@ -49,6 +49,17 @@
 	}
 }
 
+.homepage-image {
+	height: 375px;
+	width: auto;
+	float: left;
+	transition: all 1s;
+	margin-bottom: 20px;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
 
 @media #{$desktop} {
 	.flex {
