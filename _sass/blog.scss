@@ -123,3 +123,10 @@
 		right: -3px;
 	}
 }
+
+
+
+img[src*="#thumbnail"] {
+	height:100px;
+   width:auto; 
+}
