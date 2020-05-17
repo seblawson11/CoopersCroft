@@ -7,7 +7,7 @@ title: 2015 - A Busy Year
 
 Pinot finally at bud burst
 
-![Pinot bud burst]({{ site.baseurl }}/images/pinot-bud-burst.jpg)
+![Pinot bud burst]({{ site.baseurl }}/images/pinot-bud-burst.jpg#thumbnail)
 
 Well a busy time of year, pruning completed and not long after the buds started to swell.  Bud burst has now begun, although only in the protection of the tubes.
 
@@ -17,8 +17,8 @@ Let’s hope that there are no late frosts.  Frost can damage and potentially ki
 
 At a recent EAVA waffle and walk, we visited Bardfield vineyard, we had good discussions on training, early inputs required and maintenance of older vines.  Plus demonstration of ‘tow and blow’ kit; the idea that the constant movement of air would prevent damaging frosts.
 
-![waffle and walk]({{ site.baseurl }}/images/waffle-and-walk.jpg)
-![tow and blow]({{ site.baseurl }}/images/tow-and-blow.jpg)
+![waffle and walk]({{ site.baseurl }}/images/waffle-and-walk.jpg#thumbnail)
+![tow and blow]({{ site.baseurl }}/images/tow-and-blow.jpg#thumbnail)
 
 
 If there is one improvement in vine varieties, then frost tolerance would be my choice.
@@ -29,7 +29,7 @@ I’ve also put up some more wire, with help from my father-in-law.  Only anothe
 
 The right training and qualifications are important, so I’ve attended the NPTC PA3A sprayer course for air assisted sprays which are necessary for the application of fungicide (and foliar nutrients) to the vine canopy.
 
-![NPTC PA3A]({{ site.baseurl }}/images/nptc-pa3a.jpg)
+![NPTC PA3A]({{ site.baseurl }}/images/nptc-pa3a.jpg#thumbnail)
 
 Now i just have to plan my input programme.
 
@@ -37,7 +37,7 @@ Now i just have to plan my input programme.
 
 An important job to get done before bud burst is weed control around the base of the vines.
 
-![weed control]({{ site.baseurl }}/images/weed-control.jpg)
+![weed control]({{ site.baseurl }}/images/weed-control.jpg#thumbnail)
 
 The best option is to use a non-selective herbicide.  This will pretty much take everything out, at the appropriate rate, including the vines, so be sure that there are plastic tubes covering the vine trunk.  It does take a long time to work, depending on conditions – slower when it’s colder and the weeds aren’t growing.  Best timing of course is when the weeds are small, but actively growing.
 
