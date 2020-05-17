@@ -6,16 +6,16 @@
   link: /ourwines/
   new_window: false
   highlight: false
-- name: Gallery
-  link: /gallery/
+- name: Tours
+  link: /tours/
   new_window: false
   highlight: false
 - name: Blog
   link: /blog/
   new_window: false
   highlight: false
-- name: Tours
-  link: /tours/
+- name: Gallery
+  link: /gallery/
   new_window: false
   highlight: false
 - name: Contact
