@@ -10,27 +10,6 @@
 	}
 }
 
-.testimonial {
-	background: #f5f5f5;
-	margin: 0;
-	padding: 100px 0;
-
-	.testimonial-block {
-		max-width: 750px;
-		width: 98%;
-		margin: 0 auto;
-
-		@media #{$tablet} {
-			@include flexbox;
-
-			blockquote {
-				-webkit-flex: 1;
-				flex: 1;
-			}
-		}
-	}
-}
-
 .intro {
 	color: #fff;
 	text-align: center;
@@ -39,7 +18,7 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 60vh;
+	height: 80vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -50,8 +29,8 @@
 }
 
 .homepage-image {
-	width: 50%;
-	height: auto;
+	max-width: 50%;
+	height: 300px;
 	float: left;
 	transition: all 1s;
 	margin-bottom: 20px;
@@ -76,5 +55,28 @@
 
 	.content section:nth-child(even) .flex {
 		flex-direction: row-reverse;
+	}
+}
+
+
+
+.testimonial {
+	background: #f5f5f5;
+	margin: 0;
+	padding: 100px 0;
+
+	.testimonial-block {
+		max-width: 750px;
+		width: 98%;
+		margin: 0 auto;
+
+		@media #{$tablet} {
+			@include flexbox;
+
+			blockquote {
+				-webkit-flex: 1;
+				flex: 1;
+			}
+		}
 	}
 }
