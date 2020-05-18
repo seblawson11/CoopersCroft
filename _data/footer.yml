@@ -1,14 +1,12 @@
 - links:
   - name: About
     link: /about/
-  - name: Gallery
-    link: /gallery/
-  - name: Blog
-    link: /blog/
   - name: Our Wines
     link: /ourwines/
   - name: Tours
     link: /tours/
+  - name: Blog
+    link: /blog/
   - name: Contact
     link: /contact/
 - links:
