@@ -18,11 +18,14 @@
 }
 
 .homepage-container {
-	padding: 30px;
+	padding: 50px;
 	text-align: center;
-	position: relative;
 	margin: auto;
 	max-width: 1140px;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	overflow: auto;
 }
 
 
