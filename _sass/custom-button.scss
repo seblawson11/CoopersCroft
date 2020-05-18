@@ -17,14 +17,14 @@
 }
 
 .button.alt a {
-	background: rgba(2,102,52,0.8);
+	background: #026634;
 	border-radius: 5px;
 	border: 1px solid rgba(2,102,52, 0.9);
 	padding: 16px 50px;
 }
 
 .button.alt a:hover {
-	background: #fff;
+	background: rgba(2,102,52,0.8);
 	color: $brand-color;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
