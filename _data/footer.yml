@@ -11,13 +11,13 @@
     link: /contact/
 - links:
   - name: Facebook
-    link: https://facebook.com/cloudcannon/
+    link: https://www.facebook.com/cooperscroftvineyard/
     new_window: true
     social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
-    social_icon: Twitter
-    new_window: true
+#  - name: Twitter
+#    link: https://twitter.com/cloudcannon/
+#    social_icon: Twitter
+#    new_window: true
   #- name: RSS
   #  link: /feed.xml
   #  social_icon: RSS
