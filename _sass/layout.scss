@@ -17,17 +17,6 @@
 	}
 }
 
-.homepage-container {
-	padding: 50px;
-	text-align: center;
-	margin: auto;
-	max-width: 1140px;
-	display: flex;
-	display: -webkit-flex;
-	flex-wrap: wrap;
-	overflow: auto;
-}
-
 
 header {
 	color: #fff;
@@ -51,11 +40,6 @@ header {
 
 		a {
 			display: inline-block;
-		}
-
-		img {
-			display: block;
-			width: auto;
 		}
 	}
 }
