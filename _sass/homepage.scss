@@ -23,10 +23,20 @@
 	justify-content: center;
 
 	.homepage-image1 img {
-		height: auto;
-		width: 40%;
-		align-items: center;
-		margin: 20px;
+		height: 500px;
+		width: auto;
+		margin: 10px;
+		border: 1px solid #ddd;
+	  border-radius: 4px;
+	  padding: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+		.right {
+			float: right;
+		}
+		.left {
+			float: left;
+		}
 	}
 
 	.column {
