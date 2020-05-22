@@ -13,6 +13,7 @@ Well a busy time of year, pruning completed and not long after the buds started 
 
 Let’s hope that there are no late frosts.  Frost can damage and potentially kill the buds, having a substantial effect on the vine, not only for this season, but also in terms of trellising for future seasons.
 
+
 ## EAVA Waffle and Walk
 
 At a recent EAVA waffle and walk, we visited Bardfield vineyard, we had good discussions on training, early inputs required and maintenance of older vines.  Plus demonstration of ‘tow and blow’ kit; the idea that the constant movement of air would prevent damaging frosts.
@@ -25,6 +26,7 @@ If there is one improvement in vine varieties, then frost tolerance would be my 
 
 I’ve also put up some more wire, with help from my father-in-law.  Only another 6km to go to complete the block of Bacchus.  Anchoring the end posts is still to be done as well, just waiting for the right soil conditions, honest.
 
+
 ## Training
 
 The right training and qualifications are important, so I’ve attended the NPTC PA3A sprayer course for air assisted sprays which are necessary for the application of fungicide (and foliar nutrients) to the vine canopy.
@@ -32,6 +34,7 @@ The right training and qualifications are important, so I’ve attended the NPTC
 ![NPTC PA3A]({{ site.baseurl }}/images/nptc-pa3a.jpg#thumbnail)
 
 Now i just have to plan my input programme.
+
 
 ## Weed control
 
@@ -41,12 +44,13 @@ An important job to get done before bud burst is weed control around the base of
 
 The best option is to use a non-selective herbicide.  This will pretty much take everything out, at the appropriate rate, including the vines, so be sure that there are plastic tubes covering the vine trunk.  It does take a long time to work, depending on conditions – slower when it’s colder and the weeds aren’t growing.  Best timing of course is when the weeds are small, but actively growing.
 
-* Clearing the ground under the vines;
+Clearing the ground under the vines;
   + prevents loss of nutrients and moisture,
   + leaves room for fertiliser application,
   + prevents microclimate conducive to diseases,
   + allows direct sunlight on soil to help warming up,
   + and apart from all that the obvious…… looks neater.
+
 
 ## September…
 

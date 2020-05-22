@@ -2,7 +2,7 @@
 date: 2016-01-01
 title: How Did it All Happen
 ---
-### Summer 2002
+## Summer 2002
 
 ![Nyons]({{ site.baseurl }}/images/nyons.jpg#thumbnail)
 
@@ -16,7 +16,9 @@ At Domain de la Garrigue, we watched two guys putting the corks on the bottles w
 
 I fell in love with Ventoux wine. Only problem – you can’t grow those varieties successfully in the UK.
 
-### 13th June 2003 How it all started
+
+## 13th June 2003 How it all started
+
 ![First vines Bishops road]({{ site.baseurl }}/images/first-vines-bishops-road.jpg#thumbnail)
 
 I got these two vines from Wyken Hall not far from where I lived in Bury St Edmunds. I had a lovely Victorian town house, with a walled garden perfect for growing something. I didn’t want flowers, I wanted to be productive. I always remembered my Father making wine when I was a kid. My girlfriend at the time worked for the local brewery, I worked and still do in agriculture. The previous year we had spent the summer in the vineyards of the Rhone region, I’ll post a pic of a few of the chateaus we went to.
@@ -27,9 +29,8 @@ So the answer had to be vines. I didn’t know anything, I know a little more no
 Ok, so not really a vineyard, just the two vines. I look back now and see how badly trained they were. I didn’t know anything about it then, how much I know now, come a long way in just a few years.  Still fun to see where it all started from.
 
 ![Bishops road Madeleine angevine]({{ site.baseurl }}/images/bishops-road-madeleine-angevine.jpg#thumbnail)
-Madeleine angevine
 
-2005 Harvest and first go at making wine
+2005 Harvest and first go at making wine:
 
 ![2007 harvest]({{ site.baseurl }}/images/2007-harvest.jpg#thumbnail)
 
@@ -43,7 +44,9 @@ The grapes continued to grow…
 ![2008 red grape]({{ site.baseurl }}/images/2008-red-grape-harvest.jpg#thumbnail)
 ![2007 white grape]({{ site.baseurl }}/images/white-grape-harvest-2007.jpg#thumbnail)
 
-### Shawsgate
+
+## Shawsgate
+
 So if i was going to find out more, where could I go.  Courses at Plumpton which was two and an half hours away were more full-time.  I couldn’t give up the day job, well not just yet.  So the next best thing was to visit local vineyards, to find out more I spoke with Tom at Shawsgate (little did I realise that my first Vendange would be bottle here).  I popped over a few times to look at varieties, the lay of the land, trellising, the whole set up to get an idea of what i would need.
 
 
