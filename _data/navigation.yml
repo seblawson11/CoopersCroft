@@ -1,5 +1,5 @@
-- name: About
-  link: /about/
+- name: Our Story
+  link: /ourstory/
   new_window: false
   highlight: false
 - name: Our Wines
