@@ -45,8 +45,8 @@ An important job to get done before bud burst is weed control around the base of
 The best option is to use a non-selective herbicide.  This will pretty much take everything out, at the appropriate rate, including the vines, so be sure that there are plastic tubes covering the vine trunk.  It does take a long time to work, depending on conditions – slower when it’s colder and the weeds aren’t growing.  Best timing of course is when the weeds are small, but actively growing.
 
 Clearing the ground under the vines;
-  + prevents loss of nutrients and moisture,
-  + leaves room for fertiliser application,
+  - prevents loss of nutrients and moisture,
+  - leaves room for fertiliser application,
   + prevents microclimate conducive to diseases,
   + allows direct sunlight on soil to help warming up,
   + and apart from all that the obvious…… looks neater.

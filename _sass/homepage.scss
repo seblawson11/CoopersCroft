@@ -22,6 +22,12 @@
 	padding: 25px 150px;
 }
 
+@media screen and (max-width: 600px) {
+	.Welcome {
+		padding: 10px;
+	}
+}
+
 .homepage-container {
   display: flex;
 	padding: 50px;
@@ -47,9 +53,23 @@
 	.column {
 		padding: 40px;
 		margin: 10px;
+		float: left;
+		width: 50%;
+		padding: 30px;
 	}
 }
 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
 
 .subscribe {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
