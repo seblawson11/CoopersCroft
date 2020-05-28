@@ -6,7 +6,8 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 80vh;
+	width: 100%;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -57,6 +58,12 @@
 		width: 50%;
 		padding: 30px;
 	}
+
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
+	}
 }
 
 .row:after {
@@ -65,11 +72,7 @@
 	clear: both;
 }
 
-@media screen and (max-width: 600px) {
-	.column {
-		width: 100%;
-	}
-}
+
 
 .subscribe {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
