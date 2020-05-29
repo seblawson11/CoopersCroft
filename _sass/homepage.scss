@@ -6,7 +6,6 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 80vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -29,11 +28,9 @@
 }
 
 .homepage-container {
+  display: flex;
 	padding: 50px;
-	display: flex;
-	display: -webkit-flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 
 	.homepage-image1 img {
 		height: 500px;
