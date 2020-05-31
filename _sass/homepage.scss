@@ -57,6 +57,13 @@
 		width: 50%;
 		padding: 30px;
 	}
+
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100vw;
+		}
+	}
+
 }
 
 .row:after {
@@ -64,6 +71,7 @@
 	display: table;
 	clear: both;
 }
+
 
 
 
