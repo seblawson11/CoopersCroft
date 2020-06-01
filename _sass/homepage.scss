@@ -60,10 +60,9 @@
 
 	@media screen and (max-width: 600px) {
 		.column {
-			width: 100vw;
+			width: 100%;
 		}
 	}
-
 }
 
 .row:after {
