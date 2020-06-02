@@ -30,6 +30,7 @@
 
 .homepage-container {
   display: flex;
+	flex-wrap: wrap;
 	padding: 50px;
 	justify-content: center;
 
@@ -57,11 +58,11 @@
 		width: 50%;
 		padding: 30px;
 	}
+}
 
-	@media screen and (max-width: 600px) {
-		.column {
-			width: 100%;
-		}
+@media screen and (max-width: 600px) {
+	.homepage-container .column {
+		width: 100%;
 	}
 }
 
