@@ -5,3 +5,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.footer-img {
+  background-image: url('../images/tours.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100vw;
+}
