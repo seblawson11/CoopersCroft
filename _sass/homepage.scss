@@ -47,16 +47,11 @@
 
 
 .column {
-	padding: 40px;
-	float: left;
-	width: 50%;
-	padding: 30px;
 	flex: 1;
 }
 
 @media screen and (max-width: 600px) {
 	.column {
-		width: 100%;
 		display: block;
 		padding: 20px;
 	}
