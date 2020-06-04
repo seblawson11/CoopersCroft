@@ -45,9 +45,18 @@
 	}
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
 .column {
-	flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 @media screen and (max-width: 600px) {
@@ -69,11 +78,9 @@
 .subscribe {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
 	color: #fff;
-	display: flex;
 }
 
 	// visit section
 .visit {
 	color: #666;
-	display: flex;
 }
