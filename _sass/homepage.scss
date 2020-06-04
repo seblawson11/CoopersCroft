@@ -28,40 +28,37 @@
 	}
 }
 
-.homepage-container {
-  display: flex;
-	padding: 50px;
-	justify-content: center;
+.homepage-image1 img {
+	height: 500px;
+	width: auto;
+	margin: 10px;
+	border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-	.homepage-image1 img {
-		height: 500px;
-		width: auto;
-		margin: 10px;
-		border: 1px solid #ddd;
-	  border-radius: 4px;
-	  padding: 5px;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-		.right {
+	.right {
 			float: right;
-		}
-		.left {
-			float: left;
-		}
 	}
-
-	.column {
-		padding: 40px;
-		margin: 10px;
+	.left {
 		float: left;
-		width: 50%;
-		padding: 30px;
 	}
 }
 
+
+.column {
+	padding: 40px;
+	float: left;
+	width: 50%;
+	padding: 30px;
+	flex: 1;
+}
+
 @media screen and (max-width: 600px) {
-	.homepage-container .column {
+	.column {
 		width: 100%;
+		display: block;
+		padding: 20px;
 	}
 }
 
@@ -72,13 +69,16 @@
 }
 
 
-
+// subscribe section
 
 .subscribe {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
 	color: #fff;
+	display: flex;
 }
 
+	// visit section
 .visit {
 	color: #666;
+	display: flex;
 }
