@@ -30,7 +30,12 @@
 
 .social-links {
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1em;
+
+	ul {
+		text-decoration: none;
+		list-style: none;
+	}
 }
 
 .homepage-image1 img {
