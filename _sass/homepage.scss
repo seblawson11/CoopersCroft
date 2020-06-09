@@ -23,9 +23,14 @@
 }
 
 @media screen and (max-width: 600px) {
-	.Welcome {
+	p {
 		padding: 10px;
 	}
+}
+
+.social-links {
+	text-decoration: none;
+	font-size: 2em;
 }
 
 .homepage-image1 img {
@@ -67,6 +72,8 @@
 	.column {
 		display: block;
 		padding: 20px;
+		margin: 5px;
+		max-width: 100%;
 	}
 }
 
