@@ -27,6 +27,19 @@ map:
 		<input type="submit" value="Send Message" />
 	</form>
 
+  <form method="post" id="my-form" action="/contact-success">
+  <label for="email_address">Email Address</label>
+  <input id="email_address" type="text" name="email">
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message"></textarea>
+
+  <input type="hidden" name="_to" value="seblawson11@gmail.com">
+  <input type="text" name="_gotcha" style="display: none;">
+
+  <input type="submit" value="Send Message">
+</form>
+
 	<div class="contact-details">
 		<h3 class="editable">Address</h3>
 		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
