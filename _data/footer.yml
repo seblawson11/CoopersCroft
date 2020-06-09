@@ -14,9 +14,6 @@
     link: https://www.facebook.com/cooperscroftvineyard/
     new_window: true
     social_icon: Facebook
-
-- social:
-  - {icon: 'facebook', link: 'https://www.facebook.com/cooperscroftvineyard'}
 #  - name: Twitter
 #    link: https://twitter.com/cloudcannon/
 #    social_icon: Twitter
