@@ -44,6 +44,7 @@
 		padding: 10px;
 	}
 	.testimonial-block {
+		background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
 		max-width: 750px;
 		width: 98%;
 		margin: 0 auto;
