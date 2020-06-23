@@ -46,7 +46,10 @@
 		max-width: 750px;
 		width: 98%;
 		margin: 0 auto;
-		color: #fff;
+
+		p {
+			color: #fff;
+		}
 
 		@media #{$tablet} {
 			@include flexbox;
