@@ -12,6 +12,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js" type="text/javascript"></script>
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 				ga('create', '{{ site.google_analytics_key }}', 'auto');
