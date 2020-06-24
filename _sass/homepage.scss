@@ -47,9 +47,11 @@
 
 	.right {
 			float: right;
+			transform: rotate(20deg);
 	}
 	.left {
 		float: left;
+		transform: rotate(-20deg);
 	}
 }
 
