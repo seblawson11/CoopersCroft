@@ -24,7 +24,7 @@ description: A wine from Suffolk
 					 {% for column in site.data.social %}
 					 <ul class="social-links">
 						 {% for link in column.social-links %}
-							 <li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %} width="95" height="33">
+							 <li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
 								 {% if link.social_icon %}
 									 {% include social-icon.html icon=link.social_icon %}
 								 {% endif %}
