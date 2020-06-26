@@ -6,8 +6,12 @@
   justify-content: center;
 }
 
-.tour-image img {
-  width: 500px;
-  height: auto;
+.tour-image {
+  width: auto;
+  height: 80vw;
   margin: 10px;
+  background-image: url('../images/tours.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
