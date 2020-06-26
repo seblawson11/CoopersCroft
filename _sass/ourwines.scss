@@ -36,12 +36,15 @@
   }
 }
 
+.wine-img {
+  border-radius: 5px;
+}
+
 .wine-img img {
   height: 400px;
   width: auto;
   align-self: center;
   padding: 5px;
-  border-radius: 5px;
 }
 
 .checkout {
