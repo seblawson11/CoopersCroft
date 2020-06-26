@@ -40,7 +40,9 @@ description:
     </div>
   </div>
   <div class="checkout">
+    <h3>Both our wines are £10 a bottle</h3>
     <div class="cta button alt"><a href="">Order Wine</a></div>
+    <div id="paypal-button-container"></div>
   </div>
   <div class="sulphates-note">
     <h4><i>Contains sulphites. This is a natural product made with
@@ -50,6 +52,7 @@ description:
   </div>
   <div class="Voucher">
     <h2>Vouchers</h2>
+    <p>You can also buy vouchers for our wines, that can be bought and redeemed in person</p>
     <div class="voucher-img">
       <img src="{{ site.baseurl }}/images/voucher.jpg" alt="voucher">
       <img src="{{ site.baseurl }}/images/voucher2.jpg" alt="voucher">
@@ -67,3 +70,29 @@ description:
     </div>
   </div>
 </div>
+
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'checkout',
+
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '10'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
