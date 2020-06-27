@@ -19,9 +19,8 @@
 
 @media (max-width: 600px) {
   .tours .column {
-      -webkit-flex-direction: column;
-      flex-direction: column;
       width: 100%;
+      display: block;
     }
   }
 }
