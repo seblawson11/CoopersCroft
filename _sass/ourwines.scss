@@ -66,11 +66,6 @@
     padding-left: 15px;
   }
 
-  .sulphates-note {
-    text-align: center;
-    padding: 15px;
-  }
-
   // voucher
   .voucher {
     padding: 15px;
@@ -93,7 +88,7 @@
   h2:before,
   h2:after {
       content: '';
-      border-top: 2px solid;
+      border-top: 3px solid;
       border-color: #664D5E;
       margin: 0 20px 0 0;
       flex: 1 0 20px;
