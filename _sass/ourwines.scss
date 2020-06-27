@@ -82,3 +82,12 @@ li {
   height: auto;
   margin: 10px;
 }
+
+// h2
+
+.voucher .checkout .where-to-find h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    border-color: #664D5E;
+}
