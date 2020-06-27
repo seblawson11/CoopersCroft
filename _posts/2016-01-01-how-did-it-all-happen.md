@@ -1,5 +1,5 @@
 ---
-date: 2012-01-01
+date: 2013-01-01
 title: How Did it All Happen
 ---
 ## Summer 2002
