@@ -1,38 +1,26 @@
-
-.tours {
-  text-align: center;
-  padding: 30px;
-
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-  }
-
-  .column {
-    position: relative;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
-    align-items: center;
-    justify-content: space-between;
-  }
+.tours .container {
+  display: -webkit-flex;
+  display: flex;
 }
 
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+.tours .column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 20px;
+  margin-top: 25px;
 
-
-@media screen and (max-width: 600px) {
-  .column {
-    display: block;
+  img {
+    border-radius: 4px;
+    padding: 5px;
+    height: auto;
     width: 100%;
+  }
+
+@media (max-width: 600px) {
+  .tours .column {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
   }
 }
