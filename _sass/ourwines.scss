@@ -58,7 +58,12 @@
 
   .bottling-info {
     text-align: center;
-    padding-left: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+
+    p {
+      text-align: center;
+    }
   }
 
   // checkout
