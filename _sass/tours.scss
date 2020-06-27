@@ -2,31 +2,33 @@
 .tours {
   text-align: center;
   padding: 30px;
-  * {
-  box-sizing: border-box;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
   }
 
   .column {
+    position: relative;
     display: flex;
     padding: 20px;
     flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
-.tours:after {
+.container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.tour-image {
-  height: 200px;
-  width: auto;
-  margin: 10px;
-}
 
 @media screen and (max-width: 600px) {
   .column {
