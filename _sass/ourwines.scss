@@ -65,7 +65,9 @@
 
   .checkout {
     justify-content: center;
-    
+    margin-bottom: 50px;
+    padding: 20px;
+
     .payment {
      display: flex;
      flex-direction: row;
@@ -83,8 +85,9 @@
 
   // voucher
   .voucher {
-    padding: 15px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
   }
   .voucher-img img {
     width: 40%;
