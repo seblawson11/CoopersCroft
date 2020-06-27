@@ -2,6 +2,9 @@
 .tours {
   text-align: center;
   padding: 30px;
+  * {
+  box-sizing: border-box;
+  }
 
   .column {
     display: flex;
@@ -13,8 +16,21 @@
   }
 }
 
+.tours:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .tour-image {
-  height: auto;
-  width: 40%;
+  height: 200px;
+  width: auto;
   margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    display: block;
+    width: 100%;
+  }
 }
