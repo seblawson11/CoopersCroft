@@ -19,11 +19,16 @@
     }
   }
     @media screen and (max-width: 767px) {
-    .container {
+    .tour-image {
+      display: block;
+      width: 100%;
+    }
+    .tour-text {
       display: block;
       width: 100%;
     }
   }
+  
   .container:after {
     content: "";
     display: table;
