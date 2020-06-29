@@ -18,7 +18,7 @@
       width: 100%;
     }
   }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 600px) {
     .tour-image {
       display: block;
       width: 100%;
@@ -28,7 +28,7 @@
       width: 100%;
     }
   }
-  
+
   .container:after {
     content: "";
     display: table;
