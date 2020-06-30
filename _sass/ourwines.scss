@@ -60,6 +60,7 @@
     text-align: center;
     padding: 20px;
     margin-bottom: 50px;
+    align-items: center;
 
     p {
       text-align: center;
@@ -95,10 +96,17 @@
     text-align: center;
   }
   .voucher-img img {
-    width: 40%;
+    width: 45%;
     align-items: center;
     height: auto;
     margin: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .voucher-img img {
+      display: block;
+      width: 100%;
+    }
   }
 
   // h2
