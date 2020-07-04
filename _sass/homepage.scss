@@ -39,6 +39,7 @@
 .homepage-image1 img {
 	height: 500px;
 	width: auto;
+	max-width: 100%;
 	border: 1px solid #ddd;
   border-radius: 4px;
 	align-self: center;
@@ -59,8 +60,8 @@
 
 @media screen and (max-width: 700px) {
 	.homepage-image1 {
-		height: 300px;
-		width: auto;
+		max-width: 100%;
+		height: auto;
 		position: relative;
 	}
 }
