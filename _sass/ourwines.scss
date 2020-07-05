@@ -2,6 +2,7 @@
   border-top: 3px solid #664D5E;
   padding: 20px;
   text-align: center;
+  align-items: center;
   * {
     box-sizing: border-box;
   }
@@ -9,6 +10,7 @@
   .column {
     display: flex;
   	padding: 20px;
+    margin: 5px;
     flex-direction: column;
     flex: 1;
   	align-items: center;
