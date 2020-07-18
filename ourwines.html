@@ -50,11 +50,11 @@ description:
     </div>
     <div class="payment">
       <div class="price">
-        <p>Both our wines are £14 a bottle</p>
+        <p>Both our Wines are £14 a bottle</p>
         <p>For 6 bottles they are £13 a bottle</p>
         <p>For 12 bottles they are £12 a bottle</p>
         <p><i>There are no minimum orders!</i></p>
-      </div
+      </div>
     <div class="paypal">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -75,9 +75,10 @@ description:
       <input type="hidden" name="currency_code" value="GBP">
       <input type="submit" value="Buy Now" Name="submit" name="submit" title="PayPal – The safer, easier way to pay online!" class="paypal-button">
       </form>
-      <p>Or send us an order via email</p>
-      <p><a href="cooperscroftvineyard@hotmail.com"> cooperscroftvineyard@hotmail.com</a></p>
     </div>
+    <p>Or send us an order via email</p><br>
+    <p><a href="cooperscroftvineyard@hotmail.com"> cooperscroftvineyard@hotmail.com</a></p>
+  </div>
   </div>
 
   <div class="Voucher">
@@ -103,30 +104,3 @@ description:
       </ul>
   </div>
 </div>
-
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'checkout',
-
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '',
-                      currency: 'GBP'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
