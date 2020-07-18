@@ -9,8 +9,8 @@
   /* Create two equal columns that floats next to each other */
   .column {
     display: flex;
-  	padding: 20px;
-    margin: 5px;
+  	padding: 10px;
+    margin: 15px;
     flex-direction: column;
     flex: 1;
   	align-items: center;
@@ -43,7 +43,6 @@
     height: 600px;
     width: auto;
     align-self: center;
-    padding: 5px;
     border-radius: 10px;
     position: relative;
   }
