@@ -70,8 +70,15 @@
 
   // checkout
 
-  .paypal {
-    text-align: center;
+  .paypal .price {
+      display: flex;
+      padding: 10px;
+      margin: 15px;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
 
   .checkout {
@@ -79,19 +86,6 @@
     margin-bottom: 50px;
     padding: 20px;
     text-align: center;
-
-    .payment {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     width: 100%;
-
-     .price {
-      display: flex;
-      flex-direction: column;
-      flex-basis: 100%;
-      flex: 1;
-    }
    }
 
    .alternative-payment {
