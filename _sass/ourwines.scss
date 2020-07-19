@@ -68,14 +68,22 @@
 
   // checkout
 
-  .paypal .price {
+  .paypal {
       display: flex;
       padding: 20px;
-      margin: 15px;
+      margin: 10px;
       flex-direction: column;
       flex: 1;
-      align-items: center;
-      justify-content: space-around;
+      float: left;
+      text-align: center;
+    }
+    .price {
+      display: flex;
+      padding: 20px;
+      margin: 10px;
+      flex-direction: column;
+      flex: 1;
+      float: right;
       text-align: center;
     }
 
