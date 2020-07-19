@@ -41,18 +41,6 @@ map:
 
     <h3 class="editable phone">Phone</h3>
 		<p><a href="tel: 01440 820953 "> 01440 820953 </a></p>
-    <p><b>Or send us a message on Facebook</b></p>
-    {% for column in site.data.social %}
-    <ul class="social-links">
-      {% for link in column.social-links %}
-        <li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
-          {% if link.social_icon %}
-            {% include social-icon.html icon=link.social_icon %}
-          {% endif %}
-          </a></li>
-      {% endfor %}
-    </ul>
-    {% endfor %}
 	</div>
 </div>
 
