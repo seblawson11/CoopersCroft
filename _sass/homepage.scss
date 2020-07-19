@@ -36,7 +36,7 @@
 }
 
 @media screen and (max-width: 900px) {
-	background: url('../images/homepage.jpg')center center cover no-repeat fixed;
+	background: url('../images/homepage.jpg')center center contain no-repeat fixed;
 }
 
 .social-links {
