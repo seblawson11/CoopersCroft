@@ -35,12 +35,8 @@
 	}
 }
 
-@media screen and (max-width: 1200px) {
-	background-image: url('../images/homepage.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: contain;
-	max-width: 100%;
+@media screen and (max-width: 900px) {
+	background: url('../images/homepage.jpg')center center cover no-repeat fixed;
 }
 
 .social-links {
