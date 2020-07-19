@@ -107,6 +107,14 @@
       flex: 1;
     }
    }
+
+   .alternative-payment {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 10px;
+   }
   }
 
   // voucher
