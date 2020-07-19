@@ -71,23 +71,11 @@
   // checkout
 
   .paypal {
-      align-items: center;
-      text-align: center;
-      display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     }
-  .paypal-button {
-      display: inline-block;
-      background-color: #035DA6;
-      color: #fff;
-      border-radius: 5px;
-      box-shadow: none;
-      cursor: pointer;
-      font-family: inherit;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 20px 20px;
-      width: auto;
-  }
 
   .checkout {
     justify-content: center;
