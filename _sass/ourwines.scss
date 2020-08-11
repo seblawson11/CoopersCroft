@@ -7,8 +7,7 @@
   /* Create two equal columns that floats next to each other */
   .column {
     display: flex;
-  	padding: 10px;
-    margin: 15px;
+    margin: 0.2rem;
     width: 100%;
     flex-direction: row;
     flex: 1;
@@ -44,9 +43,9 @@
   }
 
   .wine-img img {
-    height: 500px;
+    height: 400px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
   }
 
