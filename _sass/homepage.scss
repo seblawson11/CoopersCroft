@@ -17,13 +17,15 @@
 }
 
 .title {
-	h1 {
-		text-transform: uppercase;
-		font-size: 3em;
-		color: black;
-		font-family: 'Source Sans Pro', sans-serif;
-		background-color: rgba(72, 88, 90, 0.5);
+		background-color: rgba(72, 88, 90, 0.8);
 		padding: 0.2rem;
+		position: absolute;
+		top: 0px;
+	h1 {
+	text-transform: uppercase;
+	font-size: 3em;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
 	}
 }
 
