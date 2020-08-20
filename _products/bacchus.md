@@ -1,6 +1,6 @@
 ---
-identifier: rose-wine
-name: Rose
+identifier: white-wine
+name: Bacchus
 price: 14
 image: /assets/images/CoopersCroft-Pinot.jpg
 **---**
