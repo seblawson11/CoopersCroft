@@ -48,6 +48,36 @@ description:
     </div>
   </div>
 
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" onsubmit="this.target = 'paypal';
+  return ReadForm (this);">
+  <input type="hidden" name="cmd" value="_cart" />
+  <input type="hidden" name="add" value="1" />
+  <input type="hidden" name="business" value="your_email_goes_here@your_site.com" />
+  <input type="hidden" name="item_name" value="2nd Item" />
+  <input type="hidden" name="amount" value="14.00" />
+  <input type="hidden" name="currency_code" value="GBP" />
+  <input type="hidden" name="baseamt" value="14.00" />
+  <input type="hidden" name="basedes" value="2nd Item @14.00" />
+
+  Enter Coupon code [coup1] &gt;
+  <input type = "text"
+  size = "6"
+  name = "coupcode"; />
+
+  <input type="button" value="Check It"
+  onclick="coupval = this.form.coupcode.value;
+  ChkCoup();" />
+
+  Input quantity &gt;
+  <input type="text" name="quantity" value="1" size="4" />
+
+  <input type="image" src="addcart.gif" name="submit" alt="cart add" />
+  </form>
+
+
+
+
   <div class="checkout">
     <div class="subheader">
       <h2>Order Our Wine to Your Door</h2>
@@ -114,3 +144,60 @@ description:
       </ul>
   </div>
 </div>
+
+
+
+<script type="text/javascript">
+<!--
+var discnt = 0; // no default percent discount
+
+var coupons = new Array ( // place to put coupon codes
+"coup1", // 1st coupon value - comma seperated
+"coup2", // 2nd coupon value - add all you want
+"coup3" // 3rd coupon value
+);
+var coupdc = new Array ( // place to put discounts for coupon vals
+6,
+10,
+15
+);
+var coupval = "(blanket)"; // what user entered as coupon code
+
+function ChkCoup () { // check user coupon entry
+var i;
+discnt = 0; // assume the worst
+for (i=0; i<coupons.length; i++) {
+if (coupval == coupons[i]) {
+discnt = coupdc[i]; // remember the discount amt
+alert ("Valid coupon number! \n\n" + discnt +
+"% discount now in effect.");
+return;
+}
+}
+alert ("'" + coupval + "' is not a valid code!");
+}
+
+function Dollar (val) { // force to valid dollar amount
+var str,pos,rnd=0;
+if (val < .995) rnd = 1; // for old Netscape browsers
+str = escape (val*1.0 + 0.005001 + rnd); // float, round, escape
+pos = str.indexOf (".");
+if (pos > 0) str = str.substring (rnd, pos + 3);
+return str;
+}
+
+function ReadForm (obj1) { // apply the discount
+var amt,des;
+amt = obj1.baseamt.value*1.0; // base amount
+des = obj1.basedes.value; // base description
+
+if (discnt > 0) { // only if discount is active
+amt = Dollar (amt - (amt * discnt/100.0));
+des = des + ", " + discnt + "% dis, COUP = " + coupval;
+}
+
+obj1.amount.value = Dollar (amt);
+obj1.item_name.value = des;
+}
+//-->
+</script>
