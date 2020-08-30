@@ -48,6 +48,110 @@ description:
     </div>
   </div>
 
+
+<div class="payment">
+  <!-- PARAGRAPH 1 -->
+  Discount &amp; Coupon Examples
+
+  <br><br>
+
+  Buy More, Pay Less - Add to Cart Item Button.
+
+  <br><br>
+
+  Widgets
+  <br><br>
+  1-5 Widgets - £14.00 each
+  <br>
+  6-11 Widgets - £13.00 each
+  <br>
+  12 or More&nbsp;  - £12.00 each
+  <br><br>
+
+  <!-- Start of Add to Cart Form -->
+  <!-- Note: target="_self" was replaced with the variable target="_self" -->
+  <!-- Note: shopping_url also added to code -->
+  <!-- These two changes allow better functionality with IE and Firefox -->
+  <FORM onsubmit="this.target = '_self'; SetAmt (1, 14.00, 6, 13.00, 12, 12.00); return ReadForm (this);"
+  action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <!-- If using a Business or Company Logo Graphic, include the "cpp_header_image" variable in your View Cart code. -->
+  <input type="hidden" name="cpp_header_image" value="https://yourwebsite.com/logo.jpg">
+  <input type="hidden" value="_cart" name="cmd">
+  <input type="hidden" value="1" name="add">
+  <!-- Replace "business" value with your PayPal Email Address or Account ID -->
+  <input type="hidden" name="business" value="your email address">
+  <input type="hidden" name="item_name">
+  <input type="hidden" value="01-001" name="item_number">
+  <input type="hidden" name="amount">
+  <input type="hidden" value="2" name="no_shipping">
+  <!-- Replace value with the web page you want the customer to return to -->
+  <input type="hidden" name="shopping_url" value="{{ site.baseurl }}/ourwines">
+  <!-- Replace value with the web page you want the customer to return to after a successful transaction -->
+  <input type="hidden" name="return" value="{{ site.baseurl }}/ourwines">
+  <!-- Replace value with the web page you want the customer to return to after item cancellation -->
+  <input type="hidden" name="cancel_return" value="{{ site.baseurl }}/ourwines">
+  <input type="hidden" value="GBP" name="currency_code">
+  <input type="hidden" value="UK" name="lc">
+  <input type="hidden" value=14.00 name="baseamt">
+  <input type="hidden" value="Widget" name="basedes">
+  <input type="hidden" name="button_subtype" value="products">
+  <input type="hidden" name="no_note" value="0">
+  <input type="hidden" name="cn" value="Add special instructions to the seller:">
+  <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+  Enter Desired Quantity:&nbsp;&nbsp;
+  <input size="3" value="1" name="qty">
+  <br><br>
+  <input type="reset" name="reset" value="Clear Selections" />
+  <br><br>
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </FORM>
+  <!-- End of Form -->
+
+  <br>
+
+  <!--  Start of View Cart Button Code  -->
+  <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <!-- If using a Business or Company Logo Graphic, include the "cpp_header_image" variable in your View Cart code. -->
+  <!-- <input type="hidden" name="cpp_header_image" value="https://yourwebsite.com/logo.jpg"> -->
+  <input type="hidden" name="cmd" value="_cart">
+  <input type="hidden" name="display" value="1">
+  <!-- Replace "business" value with your PayPal Email Address or Account ID -->
+  <input type="hidden" name="business" value="your email address">
+  <!-- Replace value with the web page you want the customer to return to -->
+  <input type="hidden" name="shopping_url" value="{{ site.baseurl }}/ourwines">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+  <!--  End of View Cart Button Code  -->
+
+
+
+  <!-- END BUTTON EXAMPLES -->
+
+
+
+  <!-- END SAMPLE CODE SECTION -->
+
+  <br><br>
+
+
+  <br><br><br><br>
+  <hr align="left" width="50%" noshade>
+  <br><br>
+  NOTES:
+  <br>
+  In order to test the code, you must replace the &quot;business&quot; value variable with your PayPal Email Address or Account ID.
+
+
+
+
+</div>
+
+
+
+
+
   <div class="checkout">
     <div class="subheader">
       <h2>Order Our Wine to Your Door</h2>
@@ -112,3 +216,72 @@ description:
       </ul>
   </div>
 </div>
+
+
+
+
+<!-- Start of Script -->
+<script type=text/javascript>
+<!--
+var ac = 0;    // table for qty/amt pairs
+var aqty = new Array ();  // qty brkpt
+var aamt = new Array ();  // amount to charge
+
+var pc = 0;    // table for qty/percent pairs
+var pqty = new Array ();  // qty brkpt
+var pper = new Array ();  // percent to discount
+
+function Pound (val) {  // force to valid dollar amount
+var str,pos,rnd=0;
+  if (val < .995) rnd = 1;  // for old Netscape browsers
+  str = escape (val*1.0 + 0.005001 + rnd);  // float, round, escape
+  pos = str.indexOf (".");
+  if (pos > 0) str = str.substring (rnd, pos + 3);
+  return str;
+}
+
+function ReadForm (obj1) { // quantity based discounts
+var i,amt,des,qty;
+  amt = obj1.baseamt.value*1.0; // base amount
+  des = obj1.basedes.value;     // base description
+  qty = obj1.qty.value;         // get user quantity
+  if (isNaN (qty) || qty < 1) { // make sure it's good
+    alert ('"' + qty + '"' + ' is not a valid number!');
+    ac = 0;                     // always zap the table
+    pc = 0;
+    return false;               // th-th-that's all, folks.
+  }
+  qty = qty*1.0;                // force to numeric
+
+  for (i=ac-1; i>=0; i=i-1) {   // run table backwards
+    if (qty >= aqty[i]) {       // use this entry
+      amt = aamt[i];            // this is the real amount
+      break;                    // get out, we're done
+    }
+  }
+  for (i=pc-1; i>=0; i=i-1) {   // run table backwards
+    if (qty >= pqty[i]) {       // use this entry
+      amt = amt - (amt/100.0 * pper[i]);
+      break;                    // get out, we're done
+    }
+  }
+
+  obj1.item_name.value = des + ", " + qty + " Widget(s) @" +
+                         Pound (amt) + " each.";
+  obj1.amount.value = Pound (amt * qty);
+  ac = 0;  // reset item discount
+  pc = 0;
+}
+
+function SetAmt (q1, a1) {  // set up a quantity-based amount table
+var i;
+  ac = 0;
+  for (i=0; i<arguments.length; i=i+2) {  // build the table
+    aqty[ac] = arguments[i];   // get real args and store
+    aamt[ac] = arguments[i+1];
+    ac = ac + 1;               // number of pairs in table
+  }
+}
+//-->
+</script>
+<!-- End of Script -->
