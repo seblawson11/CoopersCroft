@@ -74,7 +74,15 @@
       text-align: center;
     }
   }
-
+.order-option {
+  display: flex;
+  padding: 10px;
+  margin: 0;
+  flex-direction: column;
+  flex: 1;
+  float: right;
+  text-align: center;
+}
   // checkout
 
   .paypal {
