@@ -11,14 +11,6 @@
 	align-items: center;
 	justify-content: center;
 
-	@media screen and (max-width: 700px) {
-			background-image: url('../images/CoopersCroft-Pinot.jpg');
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: contain;
-			max-width: 100%;
-	}
-
 	h2 {
 		color: white;
 	}
@@ -170,4 +162,12 @@
 			margin: 0px;
 		}
 	}
+	img {
+    height: auto;
+    width: 100%;
+    align-self: center;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+  }
 }
