@@ -15,6 +15,7 @@
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 		<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="SWstpUck"></script>
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 				ga('create', '{{ site.google_analytics_key }}', 'auto');
