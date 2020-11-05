@@ -8,7 +8,7 @@
   .column {
     display: flex;
     color: black;
-    margin: 0.2rem;
+    margin: 0.4rem;
     width: 100%;
     flex-direction: row;
     flex: 1;
@@ -65,9 +65,11 @@
 
   .bottling-info {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 30px;
-    align-items: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
     p {
       text-align: center;
@@ -138,6 +140,8 @@
     padding: 20px;
     margin-bottom: 40px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .voucher-img img {
     width: 45%;
