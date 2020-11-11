@@ -32,13 +32,8 @@
     border-radius: 5px;
   }
 
-  .arrow-down {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  .wine-name {
+    flex: 1;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -60,6 +55,7 @@
     width: auto;
     border-radius: 5px;
     position: relative;
+    flex: 1;
   }
 
   .where-to-find li {
