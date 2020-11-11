@@ -50,12 +50,14 @@
     }
   }
 
+  .wine-img {
+    flex: 1;
+  }
   .wine-img img {
     height: 400px;
     width: auto;
     border-radius: 5px;
     position: relative;
-    flex: 1;
   }
 
   .where-to-find li {
